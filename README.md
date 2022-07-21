@@ -1,4 +1,4 @@
 # javascript
  Curso de javascript do CursoemVideo
 
-<a href="ttps://alexjjunio.github.io/javascript/aula04"> Executar exércicio 001
+<a href="https://alexjjunio.github.io/javascript/aula04"> Executar exércicio 001
