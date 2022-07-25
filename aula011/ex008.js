@@ -1,0 +1,1 @@
+console.logo('O console funcionou corretamente!')
