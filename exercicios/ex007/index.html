@@ -4,35 +4,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Números com JS</title>
-    <style>
-        body {
-            font: 12pt Arial;
-        }
-        button {
-            font-size: 12pt;
-            padding: 30px;
-            margin-bottom: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <h1>Média do aluno</h1>
-    <button onclick="media()">Iniciar</button>
-    <section id="resul">
-        <p>O resultado vai aparecer aqui</p>
-    </section>
-    <script>
-        function media() {
-            let nome = prompt('Qual seu nome?')
-            let n1 = Number(prompt(`Qual a primeira nota de ${nome}?`))
-            let n2 = Number(prompt('Digite a segunda nota'))
-            media = (n1 + n2) /2
-
-            let res = document.querySelector('section#resul')
-            res.innerHTML = `<p>Calculando a média final de <mark>${nome}</mark></p>`
-            res.innerHTML += `<p>As notas obtidas foram <mark>${n1} e ${n2}</mark>.</p>`
-            res.innerHTML += (`<p>O resultado da média de ${nome} é ${media}</p>`)
-        }
-    </script>
+    <div>
+        <h1>Média do aluno</h1>
+        <section id="resul">
+            <p>O resultado vai aparecer aqui</p>
+        </section>
+        <button onclick="media()">Iniciar</button>
+        <script>
+            function media() {
+                let nome = prompt('Qual seu nome?')
+                let n1 = Number(prompt(`Qual a primeira nota de ${nome}?`))
+                let n2 = Number(prompt('Digite a segunda nota'))
+                media = (n1 + n2) /2
+                let res = document.querySelector('section#resul')
+                res.innerHTML = `<p>Calculando a média final de ${nome}</p>`
+                res.innerHTML += `<p>As notas obtidas foram ${n1} e ${n2}.</p>`
+                res.innerHTML += (`<p>O resultado da média de ${nome} é ${media}</p>`)
+            }
+        </script>
+    </div>
 </body>
 </html>
