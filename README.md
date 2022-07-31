@@ -27,4 +27,6 @@
 
 <a href="https://alexjjunio.github.io/javascript/exercicios/ex011/index.html"> Executar exércicio 011
 
-<a href="https://alexjjunio.github.io/javascript/exercicios/ex012/index.html"> Executar exércicio 012 </a>
+<a href="https://alexjjunio.github.io/javascript/exercicios/ex012/index.html"> Executar exércicio 012
+
+<a href="https://alexjjunio.github.io/javascript/exercicios/ex013/index.html"> Executar exércicio 013 </a>
