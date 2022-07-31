@@ -19,4 +19,12 @@
 
 <a href="https://alexjjunio.github.io/javascript/exercicios/ex007/index.html"> Executar exércicio 007
 
-<a href="https://alexjjunio.github.io/javascript/exercicios/ex008/index.html"> Executar exércicio 008 </a>
+<a href="https://alexjjunio.github.io/javascript/exercicios/ex008/index.html"> Executar exércicio 008
+
+<a href="https://alexjjunio.github.io/javascript/exercicios/ex009/index.html"> Executar exércicio 009
+
+<a href="https://alexjjunio.github.io/javascript/exercicios/ex010/index.html"> Executar exércicio 010
+
+<a href="https://alexjjunio.github.io/javascript/exercicios/ex011/index.html"> Executar exércicio 011
+
+<a href="https://alexjjunio.github.io/javascript/exercicios/ex012/index.html"> Executar exércicio 012 </a>
