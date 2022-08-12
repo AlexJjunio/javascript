@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Titulo</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>
+                <label for="inum">Digite um número:</label>
+                <input type="number" name="num" id="inum">
+                <input onclick="gerar()" type="button" value="Gerar Tabuada">
+            </p>
+        </div>
+        <div id="res">
+           <select size = "10" name="sel" id="isel">
+                <option value="v0">Digite um número acima.</option>
+           </select>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
