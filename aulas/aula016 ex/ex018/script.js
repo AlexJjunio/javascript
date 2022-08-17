@@ -15,8 +15,9 @@ function isNumero(n.value) {
 function isLista (n, l) {
     if(l.indexOf(Number(n) != -1))
     return true
-}   else {
+   else {
     return false
+   }
 }
 
 function adicionar() {
